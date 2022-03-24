@@ -6,32 +6,107 @@
   color: #3f3d56;
   font-family: "Roboto", sans-serif;
 }
-form {
+
+body {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 396px;
+  width: 100%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 396px;
+  width: 100%;
+}
+
 .title {
   font-size: 37px;
-  margin-bottom: 22px;
+  margin: 60px 0 22px;
   font-weight: 700;
 }
-.label-field {
-  font-size: 14px;
-  font-weight: 400;
+
+.double-box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
+
 .box {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  margin-bottom: 24;
 }
-.box-gender {
+
+.space-between {
+  width: 48%;
+}
+
+.label-field {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.field-input,
+.select {
+  width: 100%;
+  border: 1px solid #abb3a8;
+  padding: 12px 14px;
+}
+
+.box-genre {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.genre-title {
+  margin-bottom: 9px;
   font-size: 14px;
 }
-.register {
-  font-size: 16px;
-  font-weight: 500;
+
+.genre-options {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 14px;
 }
+
+.terms {
+  display: flex;
+  margin-bottom: 28px;
+}
+
+.checkbox-field {
+  margin-right: 10px;
+}
+
+.button {
+  width: 100%;
+  background-color: #38364b;
+  color: #ffffff;
+  border: 0;
+  padding: 14px 0;
+  margin-bottom: 28px;
+  border-radius: 5px;
+  transition-duration: 300;
+}
+
+.button:hover {
+  background-color: #3f3d56e8;
+}
+a {
+  color: #39c2e4;
+}
+
 .label-terms {
   font-size: 14px;
 }
